@@ -1,0 +1,41 @@
+SHEET,DATA TYPE,COLUMN,DESCRIPTION,EXAMPLE
+METADATA,Taxonomic information,taxagroup,"Clasify taxa using this nine categories: Bacterioplankton, Phytoplankton, Macroalgae, Macrophytes, Zooplankton, Invertebrates, Fish, Birds and Mammals.",Fish
+,Site information,siteid,Please enter a site-specific (e.g. alpha-numeric) identifier for each sampling location,LTER_400
+,,sitename,Name of the sampling site,O3
+,,country,The country in which the data was collected (please use ISO 3166-1 alpha-2 codes),EE
+,,seaname,E.g. Sea/Ocean name (please use the names proposed by the EEA; https://www.eea.europa.eu/data-and-maps/figures/regional-ses-surrounding-europe-1),Baltic Sea
+,,decimallatitude,Decimal latitude. Please use the format World Geodetic System 84 (WGS84),58.33333206
+,,decimallongitude,Decimal longitude. Please use the format World Geodetic System 84 (WGS84),24.43333244
+,,coordinateuncertaintyinmeters,Please include coordinate uncertainty in meters,50
+,Sampling date,startyearcollected,First sampling year,1993
+,,endyearcollected,Last sampling year,2020
+,Method information,samplingprotocol,Provide name of sampling method,Gillnetting
+,Author information,name,"Provide name of the data providers (Surname, Name)","Haase, Peter"
+,,mail,Provide contact information of the data providers,peter.haase@senckenberg.de
+,,,,
+BIODIVERSITY DATA,Sampling date,datecollected,Date in ISO 8601 format (YYYY-MM-DD),1993-11-03 00:00:00
+,Site information,siteid,Please enter a site-specific (e.g. alpha-numeric) identifier for each sampling location,LTER_400
+,,sampleid,"ID of the sample build by combining site id, date and depth in meters (only in those sites where several samples have been taken at different depths). Format: SITE_ID_YYYYMMDD or SITE_ID_YYYYMMDD_MINDEPTHtoMAXDEPTH",LTER_400_19931103
+,,basisofrecord,"Please indicate the specific nature of the data record: PreservedSpecimen, FossilSpecimen, LivingSpecimen, MaterialSample, Event, HumanObservation, MachineObservation, Taxon, Occurrence, MaterialCitation",MaterialSample
+,,minimumdepthinmeters,Minimum depth in meters (if applicable/available),3
+,,maximumdepthinmeters,Maximum depth in meters (if applicable/available),5
+,Taxonomic information,taxaname,"Taxon name. Provide the most detailed taxonomic level possible, ideally the species name, but alternatively the genus, family, or order.",Pleuronectidae
+,,taxanameid,Aphia ID number following WORMS (https://www.marinespecies.org/index.php),urn:lsid:marinespecies.org:taxname:125579
+,Abundance/density/coverage,samplingeffort,Indicate the sampling effort,100 m
+,,parameter,"Indicate if the measure referes to Abundance, Relative abundance, Concentration or Coverage data",Relative abundance
+,,parameter_value,Indicate the taxa abundance/coverage,20
+,,parameter_standardunit,Please specify the units,CPUE
+,,wetweightgrams,Wet weight in grams (if applicable/available),350
+,,dryweigthgrams,Dry weight in grams (if applicable/available),120
+,,afdw,Ash free dry weight in grams (if applicable/available),
+,,,,
+METHOD,Taxonomic information,taxagroup,"Clasify taxa using this nine categories: Bacterioplankton, Phytoplankton, Macroalgae, Macrophytes, Zooplankton, Invertebrates, Fish, Birds and Mammals.",Fish
+,Method information,samplingprotocol,Provide name of sampling method,Gillnetting
+,,instrument,Provide name of the used instrument. Please use the category instruments defined here: https://vocab.nerc.ac.uk/search_nvs/L05/ ,gill nets
+,,references,Provide DOI of the study detailing the sampling method,https://doi.org/10.1016/j.marpolbul.2020.111823
+,,descrition,Provide a brief description of the sampling method,"""We conducted the sea trials over three consecutive fishing seasons: the January–March 2019 winter season, the October–December 2019 fall season, and the January–March 2020 winter season. The fishing trials were conducted under commercial fishing conditions on board the coastal gillnetter “MS Karoline” (10.9 m overall length). The fishing grounds were located off the coast of Troms (Northern Norway) around 69°55′–70°22′N and 19°39′–21°05′E, which is a frequently used fishing ground for coastal vessels from this region."""
+,,,,
+AUTHORS,,,Please provide name and contact details,
+,,,,
+,,,,
+,,,Write NA in those cells with no information,

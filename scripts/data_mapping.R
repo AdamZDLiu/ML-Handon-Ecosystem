@@ -45,3 +45,23 @@ WATER_METADATA_PHYTOPLANKTON %>% filter(!is.na(siteid)) %>% select(siteid, sitei
 WATER_METADATA_PHYTOPLANKTON %>% mutate(corr = minimumdepthinmeters.x== minimumdepthinmeters.y) %>% select(corr) %>% table()
 WATER_METADATA_PHYTOPLANKTON %>% mutate(corr = basisofrecord.x== basisofrecord.y) %>% select(corr) %>% table()
 WATER_METADATA_PHYTOPLANKTON %>% mutate(corr = sampleid.x== sampleid.y) %>% select(corr) %>% table()
+
+WATER_METADATA_PHYTOPLANKTON %>% select(taxaname) %>% distinct()
+
+WATER_METADATA_INVERTEBRATE <- WATER_METADATA %>% mutate(siteid_n = gsub("S$", "", gsub("HS$", "", siteid))) %>% 
+                                    select(-c(samplingeffort, sampleid,basisofrecord,minimumdepthinmeters,maximumdepthinmeters)) %>% 
+                                    right_join(INVERTEBRATES, by=c("siteid_n"="siteid", "datecollected"))
+colSums(is.na(WATER_METADATA_INVERTEBRATE))
+write_csv(WATER_METADATA_INVERTEBRATE, file="data/WATER_METADATA_INVERTEBRATES.csv")
+WATER_METADATA_INVERTEBRATE %>% filter(is.na(siteid)) %>% select(siteid, siteid_n, datecollected, decimallatitude, decimallongitude,  parameter) %>% distinct()
+
+
+WATER_METADATA <- read_csv("data/WATER_METADATA.csv")
+METADATA %>% print(width=Inf)
+METADATA_water <- METADATA %>% mutate(siteid_n = gsub("B$", "", gsub("S$", "", gsub("LB$", "", gsub("HB$", "", gsub("LS$", "", gsub("HS$", "", siteid))))))) %>% filter(taxagroup=="Water")
+METADATA_phytoplankton <- METADATA %>% mutate(siteid_n = gsub("S$", "", gsub("HS$", "", siteid))) %>% filter(taxagroup=="Phytoplankton")
+
+METADATA_merge <- METADATA_water %>% full_join(METADATA_phytoplankton, by="siteid_n")
+METADATA_merge %>% filter(!is.na(siteid.x)) %>% mutate(matched_longitude = decimallongitude.x==decimallongitude.y, matched_latitude= decimallatitude.x==decimallatitude.y) %>% select(siteid.x, siteid.y, siteid_n, matched_latitude, matched_longitude) 
+METADATA_merge %>% filter(is.na(siteid.x)) %>% mutate(matched_longitude = decimallongitude.x==decimallongitude.y, matched_latitude= decimallatitude.x==decimallatitude.y) %>% select(siteid.x, siteid.y, siteid_n, matched_latitude, matched_longitude) 
+METADATA_merge %>% filter(is.na(siteid.y)) %>% mutate(matched_longitude = decimallongitude.x==decimallongitude.y, matched_latitude= decimallatitude.x==decimallatitude.y) %>% select(siteid.x, siteid.y, siteid_n, matched_latitude, matched_longitude) 

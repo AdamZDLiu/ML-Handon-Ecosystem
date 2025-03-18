@@ -1,0 +1,45 @@
+
+merged2=pd.read_csv('/lustre/scratch126/cellgen/team298/ab72/accelerate/WATER_METADATA_PHYTOPLANKTON.csv')
+subset_pandas = merged2[merged2["siteid"] == "E-A10HS"]
+import pandas as pd
+import statsmodels.api as sm
+
+# Get unique species
+unique_species = subset_pandas["taxaname"].unique()
+
+#  Dictionary to store results
+regression_results = {"Temperature": {}, "pH": {}}
+
+#  Loop through each species and fit two regression models
+for species in unique_species:
+    df_species = subset_pandas[subset_pandas["taxaname"] == species][["parameter_value", "Temperature", "pH"]].dropna()
+    
+    # Ensure enough data points for regression
+    if len(df_species) < 2:
+        print(f"Skipping {species} (not enough data)")
+        continue
+
+    ##  1. Regression: `parameter_value` vs `Temperature`
+    X_temp = df_species["Temperature"]
+    y = df_species["parameter_value"]
+    X_temp = sm.add_constant(X_temp)  # Add intercept
+
+    model_temp = sm.OLS(y, X_temp).fit()
+    regression_results["Temperature"][species] = model_temp.summary()
+    
+    print(f"🔹 Regression Results for {species} (Temperature)")
+    print(model_temp.summary())
+    print("\n" + "="*60 + "\n")
+
+    ## 2. Regression: `parameter_value` vs `pH`
+    X_pH = df_species["pH"]
+    X_pH = sm.add_constant(X_pH)  # Add intercept
+
+    model_pH = sm.OLS(y, X_pH).fit()
+    regression_results["pH"][species] = model_pH.summary()
+
+    print(f"🔹 Regression Results for {species} (pH)")
+    print(model_pH.summary())
+    print("\n" + "="*60 + "\n")
+
+

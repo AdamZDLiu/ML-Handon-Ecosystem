@@ -1,0 +1,148 @@
+Subgroup,Alfanumeric code,Parameter,Units,Analysis method code,Analysis method
+Biota,ALD,Aldrin,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,aHCH,alfa-HCH,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA7,Benzo(a)anthracene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA9,Benzo(a)pyrene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA8,Benzo(b)fluoranthene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA4,Benzo(e)pyrene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA5,"Benzo(g,h,i)perylene",µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,Cd,Cadmium,mg/kg FW,ICP-MS,Inductive coupled plasma mass spectrometry
+Biota,Cr,Chromium,mg/kg FW,ICP-MS,Inductive coupled plasma mass spectrometry
+Biota,3PA3,Chrysene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,Cu,Copper,mg/kg FW,ICP-MS,Inductive coupled plasma mass spectrometry
+Biota,DIEL,Dieldrin,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA6,Fluoranthene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,gHCH,Gamma-HCH,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,HCB,Hexachlorobenzene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,Hexaclor,Hexachlorobutadiene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA10,"Indeno(1,2,3-cd)pyrene",µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,Pb,Lead,mg/kg FW,ICP-MS,Inductive coupled plasma mass spectrometry
+Biota,Hg,Mercury,mg/kg FW,EAA,Atomic absorption spectrometry
+Biota,Ni,Nickel,mg/kg FW,ICP-MS,Inductive coupled plasma mass spectrometry
+Biota,2DDT,"p,p-DDT",µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C101,PCB101,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C105,PCB105,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C118,PCB118,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C138,PCB138,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C153,PCB153,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C156,PCB156,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C180,PCB180,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C28,PCB28,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,1C52,PCB52,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA1,Phenanthrene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,2DDD,p-p' DDD,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,2DDE,p-p' DDE,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,3PA2,Pyrene,µg/kg FW,GC-MS,Gas Chromatography with mass spectrometry
+Biota,Zn,Zinc,mg/kg FW,ICP-MS,Inductive coupled plasma mass spectrometry
+Fish,N,Number of individuals,Ind,GEN,Generic
+Invertebrates,Abudens,Abundance (density),Ind/m2,CAL,Calculation
+Macroalgae,%Cover,Coverage,%,GEN,Generic
+Phytoplankton,Cel,Abundance,cel/ml,UTERMÖHL,microscopy
+Sediments,3PA13,Acenaftene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA12,Acenaftilene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,ALD,Aldrin,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,aHCH,alfa-HCH,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA15,Anthracene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA7,Benzo(a)anthracene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA9,Benzo(a)pyrene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA8,Benzo(b)fluoranthene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA4,Benzo(e)pyrene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA5,"Benzo(g,h,i)perylene",µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA16,Benzo(k)fluoranthene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,bHCH,beta-HCH,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,Cd,Cadmium,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,Cr,Chromium,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,3PA3,Chrysene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,Cu,Copper,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,dHCH,delta-HCH,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA17,"Dibenzo(a,h)anthracene",µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,DIEL,Dieldrin,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,eHCH,Epsilon-HCH,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA6,Fluoranthene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA14,Fluorene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,gHCH,Gamma-HCH,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,%G,Gravel,%,GRA,Gravimetry
+Sediments,HCB,Hexachlorobenzene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA10,"Indeno(1,2,3-cd)pyrene",µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,FE,Iron,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,ISO,Isodrin,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,Pb,Lead,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,Mn,Manganese,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,Hg,Mercury,mg/kg DW,EAA,Atomic absorption spectrometry
+Sediments,%L,Mud,%,GRA,Gravimetry
+Sediments,3PA11,Naftalene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,Ni,Nickel,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Sediments,%MO,Organic matter,%,GRA,Gravimetry
+Sediments,2DDT,"p,p-DDT",µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C101,PCB101,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C105,PCB105,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C118,PCB118,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C138,PCB138,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C153,PCB153,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C156,PCB156,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C180,PCB180,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C28,PCB28,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,1C52,PCB52,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA18,Perylene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA1,Phenanthrene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,2DDD,p-p' DDD,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,2DDE,p-p' DDE,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,3PA2,Pyrene,µg/kg DW,GC-MS,Gas Chromatography with mass spectrometry
+Sediments,POT,Redox potential,mV,POT,Potenciometry
+Sediments,%A,Sand,%,GRA,Gravimetry
+Sediments,CO%,Total Organic Carbon,%,EIR,Infrared spectrometry
+Sediments,Zn,Zinc,mg/kg DW,ICP-MS,Inductive coupled plasma mass spectrometry
+Water,3PA13,Acenaftene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA12,Acenaftilene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,ALD,Aldrin,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,aHCH,alfa-HCH,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,2AM,Ammonium,mg/l,AUTO,Segmented Flow Autoanalyzer: Colorimetry. Blue indophenol method
+Water,3PA15,Anthracene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA7,Benzo(a)anthracene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA9,Benzo(a)pyrene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA8,Benzo(b)fluoranthene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA4,Benzo(e)pyrene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA5,"Benzo(g,h,i)perylene",µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA16,Benzo(k)fluoranthene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,bHCH,beta-HCH,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,Cd,Cadmium,µg/l,ICP-MS,coupled plasma mass spectrometry
+Water,Cr,Chromium,µg/l,ICP-MS,coupled plasma mass spectrometry
+Water,3PA3,Chrysene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,Cu,Copper,µg/l,ICP-MS,coupled plasma mass spectrometry
+Water,dHCH,delta-HCH,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA17,"Dibenzo(a,h)anthracene",µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,DIEL,Dieldrin,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,OD,Dissolved oxygen,mg/l,ELM,CTD: electrometry
+Water,eHCH,Epsilon-HCH,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA6,Fluoranthene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA14,Fluorene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,gHCH,Gamma-HCH,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,HCB,Hexachlorobenzene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA10,"Indeno(1,2,3-cd)pyrene",µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,Fe,Iron,mg/l,ICP,Inductive coupled plasma mass spectrometry
+Water,ISO,Isodrin,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,Pb,Lead,µg/l,ICP-MS,coupled plasma mass spectrometry
+Water,LUZ,Light transmission %,%,TRMM,CTD
+Water,Mn,Manganese,mg/l,ICP,Inductive coupled plasma mass spectrometry
+Water,Prof máx,Maximum depth,m,DSECCHI,Secchi Disk
+Water,Hg,Mercury,µg/l,EFA,Atomic fluorescence
+Water,3PA11,Naftalene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,Ni,Nickel,µg/l,ICP-MS,coupled plasma mass spectrometry
+Water,2NA,Nitrate,mg/l,AUTO,Segmented Flow Autoanalyzer: Colorimetry
+Water,2NI,Nitrite,mg/l,AUTO,Segmented Flow Autoanalyzer: Colorimetry Griess-Ilosvay method
+Water,PO4,Ortophosphate,mg/l,AUTO,Segmented Flow Autoanalyzer: Colorimetry. Blue Molibdene/Ascorbic acid method
+Water,%O2,Oxygen saturation %,%,CAL,CTD: Calculation
+Water,2DDT,"p,p-DDT",µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA18,Perylene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,Ph,pH,U. pH.,POT,CTD: Potenciometry
+Water,3PA1,Phenanthrene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,2DDD,p-p' DDD,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,2DDE,p-p' DDE,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,3PA2,Pyrene,µg/l,SBSE-GC-MS,"Stir BarSorptive Extraction, with Gas Chromatography and Mass Spectrometry"
+Water,SAL,Salinity,,ELM,CTD: electrometry
+Water,SIL,Silicate,µmol/l,AUTO,Segmented Flow Autoanalyzer: Colorimetry. Blue Molibdene/Ascorbic acid method
+Water,SS,Suspended solids,mg/l,GRA,Gravimetry
+Water,TEMP,Temperature,ºC,TER,CTD: Thermometry
+Water,DS,Transparency,m,DSECCHI,Secchi Disk
+Water,NTU,Turbidity,NTU,NEF,Nephelometry
+Water,Zn,Zinc,µg/l,ICP-MS,coupled plasma mass spectrometry
